@@ -2,7 +2,7 @@ name: JS Actions
 
 on:
   pull_request:
-  types: [labeled]
+  label: [labeled]
 jobs:
   action:
     runs-on: ubuntu-latest
